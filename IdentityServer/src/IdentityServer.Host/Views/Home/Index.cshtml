@@ -1,0 +1,57 @@
+@{
+    ViewData["Title"] = "Home";
+}
+
+<div class="container mt-5">
+    <div class="text-center">
+        <h1 class="display-4">Duende IdentityServer v7</h1>
+        <p class="lead">Authentication & Authorization Server</p>
+        <hr class="my-4">
+
+        <div class="row mt-5">
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Status</h5>
+                        <p class="card-text">Server is running and ready to authenticate.</p>
+                        <a href="/.well-known/openid-configuration" class="btn btn-primary">Discovery Document</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">External Login</h5>
+                        <p class="card-text">Microsoft Entra (Azure AD) integration configured.</p>
+                        <a href="/Account/Login" class="btn btn-success">Login</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Admin UI</h5>
+                        <p class="card-text">Manage clients and resources with RSK Admin UI.</p>
+                        <span class="badge bg-info">License Required</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="mt-5">
+            <h3>Features Configured</h3>
+            <ul class="list-group">
+                <li class="list-group-item">✅ Duende IdentityServer v7</li>
+                <li class="list-group-item">✅ .NET 8</li>
+                <li class="list-group-item">✅ Entity Framework Core with SQL Server</li>
+                <li class="list-group-item">✅ ASP.NET Core Identity</li>
+                <li class="list-group-item">✅ Microsoft Entra (Azure AD) External Authentication</li>
+                <li class="list-group-item">✅ RSK Admin UI Support (requires license)</li>
+                <li class="list-group-item">✅ CORS Configuration</li>
+                <li class="list-group-item">✅ Serilog Logging</li>
+            </ul>
+        </div>
+    </div>
+</div>
